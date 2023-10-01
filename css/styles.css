@@ -31,12 +31,6 @@ a {
 }
 
 /* Header */
-header {
-    border-bottom: 1px solid #E7E9FC;
-    width: 1440px;
-    height: 72px;
-    border: 0px, 0px, 1px, 0px
-}
 .logo {
     font-family: 'Raleway', sans-serif;
     font-size: 18px;
@@ -61,21 +55,16 @@ header {
 }
 .navigation li a:hover, .navigation li a:focus {
     color: #404BBF;
-    border-bottom: 4px solid #404BBF;
-    border-radius: 2px;
 }
 .navigation li a, address li a {
     font-weight: 500;
 }
 
 /* 1st section Order*/
-.section-order {
+.section-request {
     background-color: #2E2F42;
-    width: 1440px;
-    height: 600px;
-    top: 72px
 }
-.order-title {
+.request-title {
     font-size: 56px;
     font-weight: 700;
     line-height: 1.07;
@@ -85,10 +74,7 @@ header {
     letter-spacing: 0.02em;
     
 }
-.order-button {
-    width: 169px;
-    height: 56px;
-    border-radius: 4px;
+.request-button {
     background-color: #4D5AE5;
     font-weight: 500;
     letter-spacing: 0.04em;
@@ -96,19 +82,14 @@ header {
     cursor: pointer;
     line-height: 1.5;
 }
-.order-button:hover, .order-button:focus {
+.request-button:hover, .request-button:focus {
     background-color: #404BBF;
 }
 
 /* 2nd section Principles */
-.principles {
-    width: 1128px;
-    height: 104px;
-    top: 792px;
-    left: 156px;
-}
 .principles-title {
     text-align: left;
+    color: #2e2f42;
 }
 .principles-para {
     color: #434455;
@@ -118,12 +99,10 @@ header {
 .section-team {
     text-align: center;
     background-color: #F4F4FD;
-    width: 1440px;
-    height: 732px;
-    top: 1016px;
 }
 .team-title {
     text-transform: capitalize;
+    color: #2e2f42;
 }
 .team-list li {
     background-color: #FFFFFF;
@@ -137,14 +116,6 @@ header {
 /* 4th section Our Portfolio */
 .section-portfolio {
     text-align: center;
-    width: 1128px;
-    height: 1000px;
-    top: 1868px;
-    left: 156px;
-    border: 1px;
-}
-.section-portfolio ul li {
-    border: 1px solid #E7E9FC;
 }
 .portfolio-title {
     text-transform: capitalize;
@@ -161,9 +132,6 @@ header {
 /* Footer */
 .footer {
     background-color: #2E2F42;
-    width: 1440px;
-    height: 312px;
-    top: 2988px;
 }
 footer .logo .logo-span {
     color: #F4F4FD;
