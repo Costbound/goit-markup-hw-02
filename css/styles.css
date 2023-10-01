@@ -1,0 +1,122 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    color: #2E2F42;
+    background-color: white;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    margin: 0 auto;
+}
+h2 {
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 1.11;
+    text-align: center;
+}
+h3 {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    text-align: center;
+}
+ul {
+    list-style-type: none;
+}
+a {
+    text-decoration: none;
+    color: #2E2F42;
+}
+
+/* Header */
+header {
+    border-bottom: 1px solid #E7E9FC;
+}
+.logo {
+    font-family: 'Raleway', sans-serif;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 1.16;
+    letter-spacing: 0.03em;
+    text-align: left;
+    color: #2E2F42;
+    text-transform: uppercase;
+}
+.logo .logo-span {
+    color: #4D5AE5;
+}
+.navigation, address ul {
+    font-style: normal;
+}
+.navigation li a:hover, .navigation li a:focus {
+    color: #404BBF;
+    border-bottom: 4px solid #404BBF;
+    border-radius: 2px;
+}
+address ul li a:hover {
+    color: #404BBF;
+}
+.navigation li a, address li a {
+    font-weight: 500;
+}
+
+/* 1st section Order*/
+.section-order {
+    background-color: #2E2F42;
+}
+.section-order h1 {
+    font-size: 56px;
+    font-weight: 700;
+    line-height: 1.07;
+    text-align: center;
+    color: #FFFFFF;
+    margin-top: 0;
+}
+.section-order button {
+    width: 169px;
+    height: 56px;
+    border-radius: 4px;
+    background-color: #4D5AE5;
+    font-weight: 500;
+    letter-spacing: 0.04em;
+    color: white;
+    cursor: pointer;
+}
+.section-order button:hover, .section-order button:focus {
+    background-color: #404BBF;
+}
+
+/* 2nd section Principles */
+.section-principles h3 {
+    text-align: left;
+}
+.section-principles p {
+    color: #434455;
+}
+
+/* 3rd section Our Team */
+.section-team {
+    text-align: center;
+    background-color: #F4F4FD;
+}
+
+
+/* 4th section Our Portfolio */
+.section-portfolio {
+    text-align: center;
+}
+.section-portfolio ul li {
+    border: 1px solid #E7E9FC;
+}
+
+
+/* Footer */
+footer {
+    background-color: #2E2F42;
+
+}
+footer .logo{
+    color: #F4F4FD;
+}
+footer p {
+    color:#F4F4FD
+}
