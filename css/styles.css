@@ -1,6 +1,5 @@
 body {
     font-family: 'Roboto', sans-serif;
-    color: #2E2F42;
     background-color: white;
     font-size: 16px;
     line-height: 1.5;
@@ -12,12 +11,14 @@ h2 {
     font-weight: 700;
     line-height: 1.11;
     text-align: center;
+    letter-spacing: 0.02em;
 }
 h3 {
     font-weight: 500;
     font-size: 20px;
     line-height: 1.2;
     text-align: center;
+    letter-spacing: 0.02em;
 }
 ul {
     list-style-type: none;
@@ -35,25 +36,26 @@ header {
     font-family: 'Raleway', sans-serif;
     font-size: 18px;
     font-weight: 700;
-    line-height: 1.16;
+    line-height: 1.17;
     letter-spacing: 0.03em;
     text-align: left;
-    color: #2E2F42;
+    color: #4D5AE5;
     text-transform: uppercase;
 }
 .logo .logo-span {
-    color: #4D5AE5;
+    color:#2E2F42 ;
 }
-.navigation, address ul {
+.contacts {
     font-style: normal;
+    color: #434455;
+}
+.contacts ul li a:active, .contacts ul li a:hover, .contacts ul li a:focus {
+    color: #404bbf;
 }
 .navigation li a:hover, .navigation li a:focus {
     color: #404BBF;
     border-bottom: 4px solid #404BBF;
     border-radius: 2px;
-}
-address ul li a:hover {
-    color: #404BBF;
 }
 .navigation li a, address li a {
     font-weight: 500;
@@ -63,15 +65,17 @@ address ul li a:hover {
 .section-order {
     background-color: #2E2F42;
 }
-.section-order h1 {
+.order-title {
     font-size: 56px;
     font-weight: 700;
     line-height: 1.07;
     text-align: center;
     color: #FFFFFF;
     margin-top: 0;
+    letter-spacing: 0.02em;
+    
 }
-.section-order button {
+.order-button {
     width: 169px;
     height: 56px;
     border-radius: 4px;
@@ -80,16 +84,17 @@ address ul li a:hover {
     letter-spacing: 0.04em;
     color: white;
     cursor: pointer;
+    line-height: 1.5;
 }
-.section-order button:hover, .section-order button:focus {
+.order-button:hover, .order-button:focus {
     background-color: #404BBF;
 }
 
 /* 2nd section Principles */
-.section-principles h3 {
+.principles-title {
     text-align: left;
 }
-.section-principles p {
+.principles-para {
     color: #434455;
 }
 
@@ -97,6 +102,16 @@ address ul li a:hover {
 .section-team {
     text-align: center;
     background-color: #F4F4FD;
+}
+.team-title {
+    text-transform: capitalize;
+}
+.team-list li {
+    background-color: #FFFFFF;
+}
+.team-para {
+    font-size: 16px;
+    color: #434455;
 }
 
 
@@ -107,16 +122,21 @@ address ul li a:hover {
 .section-portfolio ul li {
     border: 1px solid #E7E9FC;
 }
+.portfolio-title {
+    text-transform: capitalize;
+}
+.portfolio-para {
+    color: #434455;
+}
 
 
 /* Footer */
 footer {
     background-color: #2E2F42;
-
 }
-footer .logo{
+footer .logo .logo-span {
     color: #F4F4FD;
 }
-footer p {
+.footer-para {
     color:#F4F4FD
 }
