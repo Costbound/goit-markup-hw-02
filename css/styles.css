@@ -5,6 +5,7 @@ body {
     line-height: 1.5;
     letter-spacing: 0.02em;
     margin: 0 auto;
+    color: #434455;
 }
 h2 {
     font-size: 36px;
@@ -12,6 +13,7 @@ h2 {
     line-height: 1.11;
     text-align: center;
     letter-spacing: 0.02em;
+    color: #2e2f42;
 }
 h3 {
     font-weight: 500;
@@ -31,6 +33,9 @@ a {
 /* Header */
 header {
     border-bottom: 1px solid #E7E9FC;
+    width: 1440px;
+    height: 72px;
+    border: 0px, 0px, 1px, 0px
 }
 .logo {
     font-family: 'Raleway', sans-serif;
@@ -47,6 +52,8 @@ header {
 }
 .contacts {
     font-style: normal;
+}
+.contacts-link {
     color: #434455;
 }
 .contacts ul li a:active, .contacts ul li a:hover, .contacts ul li a:focus {
@@ -64,6 +71,9 @@ header {
 /* 1st section Order*/
 .section-order {
     background-color: #2E2F42;
+    width: 1440px;
+    height: 600px;
+    top: 72px
 }
 .order-title {
     font-size: 56px;
@@ -91,6 +101,12 @@ header {
 }
 
 /* 2nd section Principles */
+.principles {
+    width: 1128px;
+    height: 104px;
+    top: 792px;
+    left: 156px;
+}
 .principles-title {
     text-align: left;
 }
@@ -102,6 +118,9 @@ header {
 .section-team {
     text-align: center;
     background-color: #F4F4FD;
+    width: 1440px;
+    height: 732px;
+    top: 1016px;
 }
 .team-title {
     text-transform: capitalize;
@@ -118,21 +137,33 @@ header {
 /* 4th section Our Portfolio */
 .section-portfolio {
     text-align: center;
+    width: 1128px;
+    height: 1000px;
+    top: 1868px;
+    left: 156px;
+    border: 1px;
 }
 .section-portfolio ul li {
     border: 1px solid #E7E9FC;
 }
 .portfolio-title {
     text-transform: capitalize;
+    color: #2e2f42;
 }
 .portfolio-para {
     color: #434455;
 }
+.portfolio-name {
+    color: #2e2f42;
+}
 
 
 /* Footer */
-footer {
+.footer {
     background-color: #2E2F42;
+    width: 1440px;
+    height: 312px;
+    top: 2988px;
 }
 footer .logo .logo-span {
     color: #F4F4FD;
